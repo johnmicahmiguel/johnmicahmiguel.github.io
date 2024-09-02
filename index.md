@@ -2,12 +2,6 @@
 layout: default
 ---
 
-## Socials
-
-<a href="https://github.com/johnmicahmiguel" target="_blank">Github</a>
-
-<a href="https://www.linkedin.com/in/jmmiguel" target="_blank">LinkedIn</a>
-
 ## Portfolio
 
 1. **Housing Hand** - UK Rent Guarantor Service  
@@ -26,7 +20,11 @@ layout: default
    **Link (web)**: <a href="https://www.playfriends.gg/" target="_blank">Playfriends Web</a>  
    **Link (mobile)**: <a href="https://play.google.com/store/apps/details?id=gg.playfriends.android&hl=en" target="_blank">Google Play Store</a>
 
+## Socials
 
+<a href="https://github.com/johnmicahmiguel" target="_blank">Github</a>
+
+<a href="https://www.linkedin.com/in/jmmiguel" target="_blank">LinkedIn</a>
 
 <!-- This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
