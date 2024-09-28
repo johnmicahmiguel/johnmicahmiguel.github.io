@@ -14,7 +14,7 @@ layout: default
    **Role**: Backend Development, AWS Server Infrastructure, Analytics/Dashboard Development  
    <a href="https://app.metaversego.gg/" target="_blank">MetaverseGo!</a>
 
-3. **Playfriends** - A Web 3 social platform where you can join voice rooms and build connections  
+3. **Playfriends** - A Web 3 social platform where you can join voice rooms and build connections.  
    **Tech Stack**: Node.js, React.js, React Native, Nest.js  
    **Role**: Backend Development, Automation Tools (Discord, Webhooks, JIRA), Dashboard Development (CMS), AWS Server Infrastructure, Cybersecurity  
    **Link (web)**: <a href="https://www.playfriends.gg/" target="_blank">Playfriends Web</a>  
