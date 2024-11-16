@@ -4,7 +4,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>JM Miguel - Full Stack Developer</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="John Micah Miguel - Full Stack Developer specializing in Backend Development, AWS Infrastructure, and IT Management. Experienced with Node.js, React, and Angular.">
+  <meta name="keywords" content="John Micah Miguel, Full Stack Developer, Backend Developer, AWS, Node.js, React, Angular, Web Development">
+  <meta name="author" content="John Micah Miguel">
+  
+  <!-- Open Graph / Social Media Meta Tags -->
+  <meta property="og:title" content="John Micah Miguel | Full Stack Developer">
+  <meta property="og:description" content="Full Stack Developer specializing in Backend Development, AWS Infrastructure, and IT Management">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://johnmicahmiguel.github.io">
+  <meta property="og:image" content="https://drive.google.com/file/d/1VvbMtADAesMw0TyOBfa8_JZCXb06DWN8/view?usp=sharing">
+  
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="John Micah Miguel | Full Stack Developer">
+  <meta name="twitter:description" content="Full Stack Developer specializing in Backend Development, AWS Infrastructure, and IT Management">
+  <meta name="twitter:image" content="https://drive.google.com/file/d/1VvbMtADAesMw0TyOBfa8_JZCXb06DWN8/view?usp=sharing">
+  
+  <title>John Micah Miguel | Full Stack Developer</title>
+
+  <!-- Add canonical URL -->
+  <link rel="canonical" href="https://johnmicahmiguel.github.io">
+  
   <style>
     :root {
       --primary-color: #2d3436;
@@ -287,6 +310,22 @@
       const root = document.documentElement
       const currentTheme = root.getAttribute('data-theme')
       root.setAttribute('data-theme', currentTheme === 'dark' ? 'light' : 'dark')
+    }
+  </script>
+
+  <!-- Add structured data for better SEO -->
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "John Micah Miguel",
+      "jobTitle": "Full Stack Developer",
+      "url": "https://johnmicahmiguel.github.io",
+      "sameAs": [
+        "https://github.com/johnmicahmiguel",
+        "https://www.linkedin.com/in/jmmiguel"
+      ],
+      "knowsAbout": ["Backend Development", "AWS Infrastructure", "Node.js", "React", "Angular", "IT Management"]
     }
   </script>
 </body>
