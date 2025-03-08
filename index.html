@@ -6,13 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <!-- SEO Meta Tags -->
-  <meta name="description" content="John Micah Miguel - Full Stack Developer specializing in Backend Development, AWS Infrastructure, and IT Management. Experienced with Node.js, React, and Angular.">
-  <meta name="keywords" content="John Micah Miguel, Full Stack Developer, Backend Developer, AWS, Node.js, React, Angular, Web Development">
+  <meta name="description" content="John Micah Miguel - Full Stack Developer specializing in Backend Development, AWS Infrastructure, and IT Management. Experienced with Node.js, React, Next.js, React Native, MongoDB, SST, and cloud solutions.">
+  <meta name="keywords" content="John Micah Miguel, Full Stack Developer, Backend Developer, AWS, Node.js, React, Next.js, React Native, Angular, MongoDB, SST, Firebase, Webflow, AWS Textract, Web Development">
   <meta name="author" content="John Micah Miguel">
   
   <!-- Open Graph / Social Media Meta Tags -->
   <meta property="og:title" content="John Micah Miguel | Full Stack Developer">
-  <meta property="og:description" content="Full Stack Developer specializing in Backend Development, AWS Infrastructure, and IT Management">
+  <meta property="og:description" content="Full Stack Developer specializing in Backend Development, AWS Infrastructure, Cloud Solutions, and Modern Web Technologies">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://johnmicahmiguel.github.io">
   <meta property="og:image" content="https://i.ibb.co/7kJH01g/pfp.png">
@@ -20,7 +20,7 @@
   <!-- Twitter Card Meta Tags -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="John Micah Miguel | Full Stack Developer">
-  <meta name="twitter:description" content="Full Stack Developer specializing in Backend Development, AWS Infrastructure, and IT Management">
+  <meta name="twitter:description" content="Full Stack Developer specializing in Backend Development, AWS Infrastructure, Cloud Solutions, and Modern Web Technologies">
   <meta name="twitter:image" content="https://i.ibb.co/7kJH01g/pfp.png">
   
   <title>John Micah Miguel | Full Stack Developer</title>
@@ -256,19 +256,168 @@
     .header-content {
       text-align: left;
     }
+
+    /* Skills Summary Section Styles */
+    .skills-summary {
+      margin: 30px 0 40px;
+      padding: 25px;
+      border-radius: 15px;
+      background-color: var(--card-bg);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+      animation: fadeInUp 0.5s ease backwards;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .skills-summary p {
+      margin-bottom: 20px;
+      font-size: 1.05em;
+      line-height: 1.7;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .skill-category {
+      margin-bottom: 20px;
+    }
+
+    .skill-category h3 {
+      font-size: 1.2em;
+      margin-bottom: 10px;
+      color: var(--primary-color);
+      border-bottom: 1px solid var(--accent-color);
+      padding-bottom: 5px;
+      display: inline-block;
+    }
+
+    .skill-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skill-tag {
+      background-color: rgba(9, 132, 227, 0.1);
+      color: var(--accent-color);
+      padding: 5px 12px;
+      border-radius: 20px;
+      font-size: 0.9em;
+      display: inline-block;
+      transition: var(--transition);
+      border: 1px solid rgba(9, 132, 227, 0.2);
+    }
+
+    .skill-tag:hover {
+      background-color: var(--accent-color);
+      color: white;
+      transform: translateY(-2px);
+    }
   </style>
 </head>
 
 <body>
   <header>
     <div class="header-content">
-      <h1>JM Miguel</h1>
+      <h1>John Micah Miguel</h1>
       <h2>Full Stack Web Development and IT Management</h2>
     </div>
     <button class="theme-toggle" onclick="toggleTheme()">🌓</button>
   </header>
 
   <main>
+    <!-- Skills Summary Section -->
+    <div class="skills-summary">
+      <h2>Technical Expertise</h2>
+      <p>
+        Detail-oriented IT professional with over 10 years of experience specializing in backend solutions architecture, cloud infrastructure, and full-stack development. Passionate about building scalable, efficient applications and optimizing development workflows.
+      </p>
+      
+      <div class="skill-category">
+        <h3>Frontend Development</h3>
+        <div class="skill-list">
+          <span class="skill-tag">React</span>
+          <span class="skill-tag">Next.js</span>
+          <span class="skill-tag">React Native</span>
+          <span class="skill-tag">Angular</span>
+          <span class="skill-tag">Webflow</span>
+        </div>
+      </div>
+      
+      <div class="skill-category">
+        <h3>Backend Development</h3>
+        <div class="skill-list">
+          <span class="skill-tag">Node.js</span>
+          <span class="skill-tag">Nest.js</span>
+          <span class="skill-tag">Restify</span>
+          <span class="skill-tag">Express</span>
+          <span class="skill-tag">MongoDB</span>
+          <span class="skill-tag">Firebase</span>
+        </div>
+      </div>
+      
+      <div class="skill-category">
+        <h3>Cloud & DevOps</h3>
+        <div class="skill-list">
+          <span class="skill-tag">AWS Lambda</span>
+          <span class="skill-tag">AWS EC2</span>
+          <span class="skill-tag">AWS ECS</span>
+          <span class="skill-tag">AWS S3</span>
+          <span class="skill-tag">AWS CloudFront</span>
+          <span class="skill-tag">AWS Cognito</span>
+          <span class="skill-tag">AWS API Gateway</span>
+          <span class="skill-tag">AWS CloudWatch</span>
+          <span class="skill-tag">AWS RDS</span>
+          <span class="skill-tag">AWS SQS</span>
+          <span class="skill-tag">AWS Amplify</span>
+          <span class="skill-tag">AWS Lightsail</span>
+          <span class="skill-tag">AWS CDK</span>
+          <span class="skill-tag">AWS CodePipeline</span>
+          <span class="skill-tag">AWS CodeDeploy</span>
+          <span class="skill-tag">AWS Route53</span>
+          <span class="skill-tag">AWS Textract</span>
+          <span class="skill-tag">SST</span>
+          <span class="skill-tag">CI/CD</span>
+          <span class="skill-tag">GitHub Actions</span>
+        </div>
+      </div>
+      
+      <div class="skill-category">
+        <h3>Specialized Skills</h3>
+        <div class="skill-list">
+          <span class="skill-tag">Google Apps Script</span>
+          <span class="skill-tag">Agile/SCRUM</span>
+          <span class="skill-tag">Technical Leadership</span>
+          <span class="skill-tag">System Architecture Design</span>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3>AI</h3>
+        <div class="skill-list">
+          <span class="skill-tag">LLM API Integration</span>
+          <span class="skill-tag">OpenAI API</span>
+          <span class="skill-tag">Anthropic API</span>
+          <span class="skill-tag">Prompt Engineering</span>
+          <span class="skill-tag">RAG Systems</span>
+          <span class="skill-tag">Bot Development</span>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3>Web3</h3>
+        <div class="skill-list">
+          <span class="skill-tag">Solidity</span>
+          <span class="skill-tag">Ethereum</span>
+          <span class="skill-tag">Smart Contracts</span>
+          <span class="skill-tag">DeFi</span>
+        </div>
+      </div>
+    </div>
+
     <h2>Portfolio</h2>
     <div class="portfolio-grid">
       <div class="portfolio-item">
@@ -279,10 +428,10 @@
       </div>
 
       <div class="portfolio-item">
-        <h3>MetaverseGo!</h3>
-        <div class="role">Backend Development, AWS Infrastructure, Analytics</div>
-        <div class="tech-stack">Node.js • React.js • React Native • Nest.js</div>
-        <a href="https://app.metaversego.gg/" target="_blank">View Project →</a>
+        <h3>AppVenture Inc.</h3>
+        <div class="role">Backend Development, Project Management, Software Architecture</div>
+        <div class="tech-stack">Node.js • AWS Services • React.js • JIRA</div>
+        <a href="https://www.app-venture.co/" target="_blank">View Project →</a>
       </div>
 
       <div class="portfolio-item">
@@ -292,6 +441,13 @@
         <a href="https://www.playfriends.gg/" target="_blank">Web Version →</a>
         <br>
         <a href="https://play.google.com/store/apps/details?id=gg.playfriends.android&hl=en" target="_blank">Play Store →</a>
+      </div>
+
+      <div class="portfolio-item">
+        <h3>Akylade</h3>
+        <div class="role">Full Stack Development</div>
+        <div class="tech-stack">Node.js • React.js • SST • Next.js</div>
+        <a href="https://www.akylade.com/" target="_blank">Web Version →</a>
       </div>
     </div>
 
@@ -325,7 +481,52 @@
         "https://github.com/johnmicahmiguel",
         "https://www.linkedin.com/in/jmmiguel"
       ],
-      "knowsAbout": ["Backend Development", "AWS Infrastructure", "Node.js", "React", "Angular", "IT Management"]
+      "knowsAbout": [
+        "Backend Development", 
+        "AWS Infrastructure", 
+        "Node.js", 
+        "React", 
+        "Next.js",
+        "React Native",
+        "Angular", 
+        "IT Management",
+        "Nest.js",
+        "Restify",
+        "MongoDB",
+        "AWS CDK",
+        "AWS Lambda",
+        "AWS EC2",
+        "AWS ECS",
+        "AWS S3",
+        "AWS CloudFront",
+        "AWS Cognito",
+        "AWS API Gateway",
+        "AWS CloudWatch",
+        "AWS RDS",
+        "AWS SQS",
+        "AWS Amplify",
+        "AWS Lightsail",
+        "AWS CodePipeline",
+        "AWS CodeDeploy",
+        "AWS Route53",
+        "AWS Textract",
+        "SST",
+        "Firebase",
+        "Webflow",
+        "CI/CD",
+        "GitHub Actions",
+        "Bot Development",
+        "AI Integration",
+        "LLM API Integration",
+        "OpenAI API",
+        "Anthropic API",
+        "Prompt Engineering",
+        "RAG Systems",
+        "Solidity",
+        "Ethereum",
+        "Smart Contracts",
+        "DeFi"
+      ]
     }
   </script>
 </body>
