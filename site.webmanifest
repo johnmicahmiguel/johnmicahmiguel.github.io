@@ -1,0 +1,25 @@
+{
+  "name": "John Micah Miguel - Full Stack Developer Portfolio",
+  "short_name": "JM Portfolio",
+  "description": "Professional portfolio of John Micah Miguel, Full Stack Developer specializing in Backend Development, AWS Infrastructure, and IT Management",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a1a1a",
+  "theme_color": "#0984e3",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["portfolio", "developer", "technology"],
+  "lang": "en",
+  "dir": "ltr"
+} 

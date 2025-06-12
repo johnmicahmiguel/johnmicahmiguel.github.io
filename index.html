@@ -5,28 +5,69 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <!-- SEO Meta Tags -->
+  <!-- Enhanced SEO Meta Tags -->
   <meta name="description" content="John Micah Miguel - Full Stack Developer specializing in Backend Development, AWS Infrastructure, and IT Management. Experienced with Node.js, React, Next.js, React Native, MongoDB, SST, and cloud solutions.">
-  <meta name="keywords" content="John Micah Miguel, Full Stack Developer, Backend Developer, AWS, Node.js, React, Next.js, React Native, Angular, MongoDB, SST, Firebase, Webflow, AWS Textract, Web Development">
+  <meta name="keywords" content="John Micah Miguel, Full Stack Developer, Backend Developer, AWS, Node.js, React, Next.js, React Native, Angular, MongoDB, SST, Firebase, Webflow, AWS Textract, Web Development, Cloud Solutions, IT Management, Software Engineer, JavaScript Developer, AWS Lambda, DevOps">
   <meta name="author" content="John Micah Miguel">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="language" content="English">
+  <meta name="revisit-after" content="7 days">
+  <meta name="distribution" content="global">
+  <meta name="rating" content="general">
+  
+  <!-- Mobile and Browser Optimization -->
+  <meta name="theme-color" content="#0984e3">
+  <meta name="msapplication-TileColor" content="#0984e3">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-status-bar-style" content="default">
+  <meta name="mobile-web-app-title" content="John Micah Miguel">
+  
+  <!-- Performance Optimization -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="dns-prefetch" href="//github.com">
+  <link rel="dns-prefetch" href="//linkedin.com">
+  <link rel="dns-prefetch" href="//drive.google.com">
   
   <!-- Open Graph / Social Media Meta Tags -->
-  <meta property="og:title" content="John Micah Miguel | Full Stack Developer">
-  <meta property="og:description" content="Full Stack Developer specializing in Backend Development, AWS Infrastructure, Cloud Solutions, and Modern Web Technologies">
+  <meta property="og:title" content="John Micah Miguel | Full Stack Developer & AWS Specialist">
+  <meta property="og:description" content="Full Stack Developer specializing in Backend Development, AWS Infrastructure, Cloud Solutions, and Modern Web Technologies. 10+ years experience in IT management and software development.">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://johnmicahmiguel.github.io">
+  <meta property="og:url" content="https://johnmicahmiguel.com">
   <meta property="og:image" content="https://i.ibb.co/7kJH01g/pfp.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="John Micah Miguel - Full Stack Developer Profile">
+  <meta property="og:site_name" content="John Micah Miguel Portfolio">
+  <meta property="og:locale" content="en_US">
   
   <!-- Twitter Card Meta Tags -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="John Micah Miguel | Full Stack Developer">
+  <meta name="twitter:title" content="John Micah Miguel | Full Stack Developer & AWS Specialist">
   <meta name="twitter:description" content="Full Stack Developer specializing in Backend Development, AWS Infrastructure, Cloud Solutions, and Modern Web Technologies">
   <meta name="twitter:image" content="https://i.ibb.co/7kJH01g/pfp.png">
+  <meta name="twitter:image:alt" content="John Micah Miguel - Full Stack Developer Profile">
+  <meta name="twitter:creator" content="@johnmicahmiguel">
+  <meta name="twitter:site" content="@johnmicahmiguel">
   
-  <title>John Micah Miguel | Full Stack Developer</title>
+  <!-- Additional SEO Meta Tags -->
+  <meta name="geo.region" content="US">
+  <meta name="geo.placename" content="United States">
+  <meta name="ICBM" content="39.8283, -98.5795">
+  
+  <title>John Micah Miguel | Full Stack Developer & AWS Cloud Specialist</title>
 
   <!-- Add canonical URL -->
-  <link rel="canonical" href="https://johnmicahmiguel.github.io">
+  <link rel="canonical" href="https://johnmicahmiguel.com">
+  
+  <!-- SEO Files -->
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+  
+  <!-- Favicon and Icons -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
   
   <style>
     :root {
@@ -316,24 +357,95 @@
       color: white;
       transform: translateY(-2px);
     }
+
+    /* Navigation Styles */
+    nav {
+      margin: 20px 0;
+      padding: 15px 0;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-links {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav-links a {
+      color: var(--text-color);
+      text-decoration: none;
+      padding: 8px 16px;
+      border-radius: 6px;
+      transition: var(--transition);
+      font-weight: 500;
+    }
+
+    .nav-links a:hover {
+      background-color: var(--accent-color);
+      color: white;
+    }
+
+    /* Skip Link for Accessibility */
+    .skip-link {
+      position: absolute;
+      top: -40px;
+      left: 6px;
+      background: var(--accent-color);
+      color: white;
+      padding: 8px;
+      text-decoration: none;
+      border-radius: 4px;
+      z-index: 1000;
+    }
+
+    .skip-link:focus {
+      top: 6px;
+    }
+
+    /* Responsive Navigation */
+    @media (max-width: 768px) {
+      .nav-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+      }
+    }
   </style>
 </head>
 
 <body>
-  <header>
+  <!-- Skip to main content for accessibility -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  
+  <header role="banner">
     <div class="header-content">
       <h1>John Micah Miguel</h1>
       <h2>Full Stack Web Development and IT Management</h2>
     </div>
-    <button class="theme-toggle" onclick="toggleTheme()">🌓</button>
+    <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle dark/light theme">🌓</button>
   </header>
 
-  <main>
+  <nav role="navigation" aria-label="Page sections">
+    <ul class="nav-links">
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main id="main-content" role="main">
     <!-- Skills Summary Section -->
-    <div class="skills-summary">
-      <h2>Technical Expertise</h2>
+    <section id="skills" class="skills-summary" role="region" aria-labelledby="skills-heading">
+      <h2 id="skills-heading">Technical Expertise</h2>
       <p>
         Detail-oriented IT professional with over 10 years of experience specializing in backend solutions architecture, cloud infrastructure, and full-stack development. Passionate about building scalable, efficient applications and optimizing development workflows.
+      </p>
+      
+      <p>
+        As a seasoned <strong>Full Stack Developer</strong>, I excel in creating robust backend systems using <strong>Node.js</strong>, implementing modern frontend solutions with <strong>React</strong> and <strong>Next.js</strong>, and architecting cloud infrastructure on <strong>AWS</strong>. My expertise spans from serverless computing with <strong>AWS Lambda</strong> to containerized applications using <strong>AWS ECS</strong>, ensuring optimal performance and scalability for enterprise-level applications.
       </p>
       
       <div class="skill-category">
@@ -416,49 +528,51 @@
           <span class="skill-tag">DeFi</span>
         </div>
       </div>
-    </div>
+    </section>
 
-    <h2>Portfolio</h2>
-    <div class="portfolio-grid">
-      <div class="portfolio-item">
-        <h3>Housing Hand</h3>
-        <div class="role">Backend Development and AWS Server Infrastructure</div>
-        <div class="tech-stack">Angular • Node.js</div>
-        <a href="https://housinghand.co.uk/" target="_blank">View Project →</a>
+    <section id="portfolio" role="region" aria-labelledby="portfolio-heading">
+      <h2 id="portfolio-heading">Portfolio</h2>
+      <div class="portfolio-grid">
+        <article class="portfolio-item" itemscope itemtype="https://schema.org/CreativeWork">
+          <h3 itemprop="name">Housing Hand</h3>
+          <div class="role" itemprop="description">Backend Development and AWS Server Infrastructure</div>
+          <div class="tech-stack">Angular • Node.js</div>
+          <a href="https://housinghand.co.uk/" target="_blank" rel="noopener" itemprop="url">View Project →</a>
+        </article>
+
+        <article class="portfolio-item" itemscope itemtype="https://schema.org/CreativeWork">
+          <h3 itemprop="name">AppVenture Inc.</h3>
+          <div class="role" itemprop="description">Backend Development, Project Management, Software Architecture</div>
+          <div class="tech-stack">Node.js • AWS Services • React.js • JIRA</div>
+          <a href="https://www.app-venture.co/" target="_blank" rel="noopener" itemprop="url">View Project →</a>
+        </article>
+
+        <article class="portfolio-item" itemscope itemtype="https://schema.org/CreativeWork">
+          <h3 itemprop="name">Playfriends</h3>
+          <div class="role" itemprop="description">Full Stack Development, DevOps, Cybersecurity</div>
+          <div class="tech-stack">Node.js • React.js • React Native • Nest.js</div>
+          <a href="https://www.playfriends.gg/" target="_blank" rel="noopener" itemprop="url">Web Version →</a>
+          <br>
+          <a href="https://play.google.com/store/apps/details?id=gg.playfriends.android&hl=en" target="_blank" rel="noopener">Play Store →</a>
+        </article>
+
+        <article class="portfolio-item" itemscope itemtype="https://schema.org/CreativeWork">
+          <h3 itemprop="name">Akylade</h3>
+          <div class="role" itemprop="description">Full Stack Development</div>
+          <div class="tech-stack">Node.js • React.js • SST • Next.js</div>
+          <a href="https://www.akylade.com/" target="_blank" rel="noopener" itemprop="url">Web Version →</a>
+        </article>
       </div>
+    </section>
 
-      <div class="portfolio-item">
-        <h3>AppVenture Inc.</h3>
-        <div class="role">Backend Development, Project Management, Software Architecture</div>
-        <div class="tech-stack">Node.js • AWS Services • React.js • JIRA</div>
-        <a href="https://www.app-venture.co/" target="_blank">View Project →</a>
-      </div>
-
-      <div class="portfolio-item">
-        <h3>Playfriends</h3>
-        <div class="role">Full Stack Development, DevOps, Cybersecurity</div>
-        <div class="tech-stack">Node.js • React.js • React Native • Nest.js</div>
-        <a href="https://www.playfriends.gg/" target="_blank">Web Version →</a>
-        <br>
-        <a href="https://play.google.com/store/apps/details?id=gg.playfriends.android&hl=en" target="_blank">Play Store →</a>
-      </div>
-
-      <div class="portfolio-item">
-        <h3>Akylade</h3>
-        <div class="role">Full Stack Development</div>
-        <div class="tech-stack">Node.js • React.js • SST • Next.js</div>
-        <a href="https://www.akylade.com/" target="_blank">Web Version →</a>
-      </div>
-    </div>
-
-    <div class="links">
-      <h2>Connect With Me</h2>
+    <section id="contact" class="links" role="region" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Connect With Me</h2>
       <div class="social-links">
-        <a href="https://github.com/johnmicahmiguel" target="_blank">Github</a>
-        <a href="https://www.linkedin.com/in/jmmiguel" target="_blank">LinkedIn</a>
-        <a href="https://drive.google.com/file/d/1EI8NAwnp4IVrWPgCSUrogdjYMQuMNxBt/view" target="_blank">Resume</a>
+        <a href="https://github.com/johnmicahmiguel" target="_blank" rel="noopener" aria-label="Visit my GitHub profile">Github</a>
+        <a href="https://www.linkedin.com/in/jmmiguel" target="_blank" rel="noopener" aria-label="Connect with me on LinkedIn">LinkedIn</a>
+        <a href="https://drive.google.com/file/d/1EI8NAwnp4IVrWPgCSUrogdjYMQuMNxBt/view" target="_blank" rel="noopener" aria-label="Download my resume">Resume</a>
       </div>
-    </div>
+    </section>
   </main>
 
   <script>
@@ -469,65 +583,149 @@
     }
   </script>
 
-  <!-- Add structured data for better SEO -->
+  <!-- Enhanced structured data for better SEO -->
   <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "John Micah Miguel",
-      "jobTitle": "Full Stack Developer",
-      "url": "https://johnmicahmiguel.github.io",
-      "sameAs": [
-        "https://github.com/johnmicahmiguel",
-        "https://www.linkedin.com/in/jmmiguel"
-      ],
-      "knowsAbout": [
-        "Backend Development", 
-        "AWS Infrastructure", 
-        "Node.js", 
-        "React", 
-        "Next.js",
-        "React Native",
-        "Angular", 
-        "IT Management",
-        "Nest.js",
-        "Restify",
-        "MongoDB",
-        "AWS CDK",
-        "AWS Lambda",
-        "AWS EC2",
-        "AWS ECS",
-        "AWS S3",
-        "AWS CloudFront",
-        "AWS Cognito",
-        "AWS API Gateway",
-        "AWS CloudWatch",
-        "AWS RDS",
-        "AWS SQS",
-        "AWS Amplify",
-        "AWS Lightsail",
-        "AWS CodePipeline",
-        "AWS CodeDeploy",
-        "AWS Route53",
-        "AWS Textract",
-        "SST",
-        "Firebase",
-        "Webflow",
-        "CI/CD",
-        "GitHub Actions",
-        "Bot Development",
-        "AI Integration",
-        "LLM API Integration",
-        "OpenAI API",
-        "Anthropic API",
-        "Prompt Engineering",
-        "RAG Systems",
-        "Solidity",
-        "Ethereum",
-        "Smart Contracts",
-        "DeFi"
-      ]
-    }
+    [
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "John Micah Miguel",
+        "jobTitle": "Full Stack Developer",
+        "description": "Detail-oriented IT professional with over 10 years of experience specializing in backend solutions architecture, cloud infrastructure, and full-stack development.",
+        "url": "https://johnmicahmiguel.com",
+        "image": "https://i.ibb.co/7kJH01g/pfp.png",
+        "email": "contact@johnmicahmiguel.com",
+        "sameAs": [
+          "https://github.com/johnmicahmiguel",
+          "https://www.linkedin.com/in/jmmiguel"
+        ],
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Freelance Developer"
+        },
+        "hasOccupation": {
+          "@type": "Occupation",
+          "name": "Full Stack Developer",
+          "occupationLocation": {
+            "@type": "Country",
+            "name": "United States"
+          },
+          "skills": [
+            "Backend Development", 
+            "AWS Infrastructure", 
+            "Node.js", 
+            "React", 
+            "Next.js",
+            "React Native",
+            "Angular", 
+            "IT Management",
+            "Nest.js",
+            "Restify",
+            "MongoDB",
+            "AWS CDK",
+            "AWS Lambda",
+            "AWS EC2",
+            "AWS ECS",
+            "AWS S3",
+            "AWS CloudFront",
+            "AWS Cognito",
+            "AWS API Gateway",
+            "AWS CloudWatch",
+            "AWS RDS",
+            "AWS SQS",
+            "AWS Amplify",
+            "AWS Lightsail",
+            "AWS CodePipeline",
+            "AWS CodeDeploy",
+            "AWS Route53",
+            "AWS Textract",
+            "SST",
+            "Firebase",
+            "Webflow",
+            "CI/CD",
+            "GitHub Actions",
+            "Bot Development",
+            "AI Integration",
+            "LLM API Integration",
+            "OpenAI API",
+            "Anthropic API",
+            "Prompt Engineering",
+            "RAG Systems",
+            "Solidity",
+            "Ethereum",
+            "Smart Contracts",
+            "DeFi"
+          ]
+        },
+        "knowsAbout": [
+          "Backend Development", 
+          "AWS Infrastructure", 
+          "Node.js", 
+          "React", 
+          "Next.js",
+          "React Native",
+          "Angular", 
+          "IT Management",
+          "Cloud Computing",
+          "DevOps",
+          "Software Architecture",
+          "Database Design",
+          "API Development",
+          "Microservices",
+          "Serverless Computing",
+          "Artificial Intelligence",
+          "Machine Learning",
+          "Blockchain Development",
+          "Web3 Technologies"
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "John Micah Miguel Portfolio",
+        "url": "https://johnmicahmiguel.com",
+        "description": "Professional portfolio of John Micah Miguel, Full Stack Developer specializing in Backend Development, AWS Infrastructure, and IT Management",
+        "author": {
+          "@type": "Person",
+          "name": "John Micah Miguel"
+        },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://johnmicahmiguel.com#{search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://johnmicahmiguel.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Skills",
+            "item": "https://johnmicahmiguel.com#skills"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Portfolio",
+            "item": "https://johnmicahmiguel.com#portfolio"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Contact",
+            "item": "https://johnmicahmiguel.com#contact"
+          }
+        ]
+      }
+    ]
   </script>
 </body>
 
