@@ -4,729 +4,256 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
   <!-- Enhanced SEO Meta Tags -->
-  <meta name="description" content="John Micah Miguel - Full Stack Developer specializing in Backend Development, AWS Infrastructure, and IT Management. Experienced with Node.js, React, Next.js, React Native, MongoDB, SST, and cloud solutions.">
-  <meta name="keywords" content="John Micah Miguel, Full Stack Developer, Backend Developer, AWS, Node.js, React, Next.js, React Native, Angular, MongoDB, SST, Firebase, Webflow, AWS Textract, Web Development, Cloud Solutions, IT Management, Software Engineer, JavaScript Developer, AWS Lambda, DevOps">
+  <meta name="description"
+    content="John Micah Miguel - Full Stack Developer specializing in Backend Development, AWS Infrastructure, and IT Management.">
+  <meta name="keywords"
+    content="John Micah Miguel, Full Stack Developer, Backend Developer, AWS, Node.js, React, Next.js, Cloud Solutions">
   <meta name="author" content="John Micah Miguel">
-  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-  <meta name="language" content="English">
-  <meta name="revisit-after" content="7 days">
-  <meta name="distribution" content="global">
-  <meta name="rating" content="general">
-  
-  <!-- Mobile and Browser Optimization -->
-  <meta name="theme-color" content="#0984e3">
-  <meta name="msapplication-TileColor" content="#0984e3">
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="mobile-web-app-status-bar-style" content="default">
-  <meta name="mobile-web-app-title" content="John Micah Miguel">
-  
-  <!-- Performance Optimization -->
+  <meta name="robots" content="index, follow">
+
+  <title>John Micah Miguel | Full Stack Developer & AWS Specialist</title>
+
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="dns-prefetch" href="//github.com">
-  <link rel="dns-prefetch" href="//linkedin.com">
-  <link rel="dns-prefetch" href="//drive.google.com">
-  
-  <!-- Open Graph / Social Media Meta Tags -->
-  <meta property="og:title" content="John Micah Miguel | Full Stack Developer & AWS Specialist">
-  <meta property="og:description" content="Full Stack Developer specializing in Backend Development, AWS Infrastructure, Cloud Solutions, and Modern Web Technologies. 10+ years experience in IT management and software development.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://johnmicahmiguel.com">
-  <meta property="og:image" content="https://i.ibb.co/7kJH01g/pfp.png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="John Micah Miguel - Full Stack Developer Profile">
-  <meta property="og:site_name" content="John Micah Miguel Portfolio">
-  <meta property="og:locale" content="en_US">
-  
-  <!-- Twitter Card Meta Tags -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="John Micah Miguel | Full Stack Developer & AWS Specialist">
-  <meta name="twitter:description" content="Full Stack Developer specializing in Backend Development, AWS Infrastructure, Cloud Solutions, and Modern Web Technologies">
-  <meta name="twitter:image" content="https://i.ibb.co/7kJH01g/pfp.png">
-  <meta name="twitter:image:alt" content="John Micah Miguel - Full Stack Developer Profile">
-  <meta name="twitter:creator" content="@johnmicahmiguel">
-  <meta name="twitter:site" content="@johnmicahmiguel">
-  
-  <!-- Additional SEO Meta Tags -->
-  <meta name="geo.region" content="US">
-  <meta name="geo.placename" content="United States">
-  <meta name="ICBM" content="39.8283, -98.5795">
-  
-  <title>John Micah Miguel | Full Stack Developer & AWS Cloud Specialist</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;700&display=swap"
+    rel="stylesheet">
 
-  <!-- Add canonical URL -->
-  <link rel="canonical" href="https://johnmicahmiguel.com">
-  
-  <!-- SEO Files -->
-  <link rel="sitemap" type="application/xml" href="/sitemap.xml">
-  
-  <!-- Favicon and Icons -->
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  
-  <style>
-    :root {
-      --primary-color: #2d3436;
-      --accent-color: #0984e3;
-      --bg-color: #ffffff;
-      --text-color: #2d3436;
-      --card-bg: #f8f9fa;
-      --transition: all 0.3s ease;
-    }
-
-    :root[data-theme="dark"] {
-      --primary-color: #f1f1f1;
-      --accent-color: #74b9ff;
-      --bg-color: #1a1a1a;
-      --text-color: #f1f1f1;
-      --card-bg: #2d2d2d;
-    }
-
-    body {
-      font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
-      line-height: 1.6;
-      max-width: 1000px;
-      margin: 0 auto;
-      padding: 40px 20px 20px;
-      color: var(--text-color);
-      background-color: var(--bg-color);
-      transition: background-color 0.3s ease, color 0.3s ease;
-    }
-
-    header {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      margin-bottom: 20px;
-      padding: 30px 0;
-      border-bottom: 2px solid #eee;
-    }
-
-    h1 {
-      font-size: 2.8em;
-      margin: 0 0 10px 0;
-      background: linear-gradient(120deg, var(--primary-color), var(--accent-color), #ff7675, #74b9ff);
-      background-size: 300% 300%;
-      animation: gradientFlow 8s ease infinite;
-      -webkit-background-clip: text;
-      background-clip: text;
-      -webkit-text-fill-color: transparent;
-      letter-spacing: -1px;
-    }
-
-    h2 {
-      color: var(--text-color);
-      font-weight: 500;
-      margin: 10px 0;
-      font-size: 1.3em;
-    }
-
-    .portfolio-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 15px;
-      margin-bottom: 20px;
-      perspective: 1000px;
-    }
-
-    .portfolio-item {
-      padding: 15px;
-      border-radius: 15px;
-      background-color: var(--card-bg);
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-      transition: var(--transition);
-      border: 1px solid rgba(0, 0, 0, 0.05);
-      animation: fadeInUp 0.6s ease backwards;
-      backdrop-filter: blur(10px);
-      border: 1px solid rgba(255, 255, 255, 0.1);
-    }
-
-    .portfolio-item:nth-child(1) { animation-delay: 0.2s }
-    .portfolio-item:nth-child(2) { animation-delay: 0.4s }
-    .portfolio-item:nth-child(3) { animation-delay: 0.6s }
-
-    .portfolio-item:hover {
-      transform: translateY(-5px) rotateX(4deg);
-      box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
-      border: 1px solid var(--accent-color);
-    }
-
-    .portfolio-item h3 {
-      margin-top: 0;
-      color: var(--primary-color);
-      font-size: 1.4em;
-      margin-bottom: 15px;
-    }
-
-    .tech-stack {
-      color: var(--text-color);
-      opacity: 0.8;
-      margin: 15px 0;
-      font-size: 0.95em;
-      padding: 8px 0;
-      border-top: 1px solid #eee;
-      border-bottom: 1px solid #eee;
-    }
-
-    .role {
-      color: var(--text-color);
-      opacity: 0.8;
-      font-style: italic;
-      margin: 15px 0;
-    }
-
-    .links {
-      text-align: center;
-      margin-top: 20px;
-      padding-top: 15px;
-      border-top: 2px solid #eee;
-    }
-
-    .social-links {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      margin-top: 20px;
-    }
-
-    .social-links a {
-      padding: 12px 24px;
-      border-radius: 8px;
-      background-color: var(--card-bg);
-      color: var(--primary-color);
-      text-decoration: none;
-      transition: var(--transition);
-      border: 1px solid rgba(0, 0, 0, 0.05);
-      position: relative;
-      overflow: hidden;
-    }
-
-    .social-links a::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: -100%;
-      width: 100%;
-      height: 100%;
-      background: linear-gradient(
-        120deg,
-        transparent,
-        rgba(255, 255, 255, 0.2),
-        transparent
-      );
-      transition: 0.5s;
-    }
-
-    .social-links a:hover::before {
-      left: 100%;
-    }
-
-    .social-links a:hover {
-      background-color: var(--accent-color);
-      color: white;
-      transform: translateY(-2px);
-    }
-
-    @media (max-width: 768px) {
-      body {
-        padding: 30px 15px;
-      }
-
-      h1 {
-        font-size: 2.5em;
-      }
-
-      .portfolio-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .social-links {
-        flex-direction: column;
-        align-items: stretch;
-      }
-    }
-
-    .theme-toggle {
-      position: static;
-      padding: 10px;
-      border-radius: 50%;
-      border: none;
-      background: var(--card-bg);
-      color: var(--text-color);
-      cursor: pointer;
-      width: 40px;
-      height: 40px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      transition: var(--transition);
-    }
-
-    .theme-toggle:hover {
-      transform: rotate(180deg);
-      background: var(--accent-color);
-    }
-
-    .portfolio-item a {
-      color: var(--accent-color);
-      text-decoration: none;
-    }
-
-    @keyframes fadeInUp {
-      from {
-        opacity: 0;
-        transform: translateY(20px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-
-    @keyframes gradientFlow {
-      0% { background-position: 0% 50% }
-      50% { background-position: 100% 50% }
-      100% { background-position: 0% 50% }
-    }
-
-    .header-content {
-      text-align: left;
-    }
-
-    /* Skills Summary Section Styles */
-    .skills-summary {
-      margin: 30px 0 40px;
-      padding: 25px;
-      border-radius: 15px;
-      background-color: var(--card-bg);
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-      animation: fadeInUp 0.5s ease backwards;
-      border: 1px solid rgba(255, 255, 255, 0.1);
-    }
-
-    .skills-summary p {
-      margin-bottom: 20px;
-      font-size: 1.05em;
-      line-height: 1.7;
-    }
-
-    .skills-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-      gap: 15px;
-      margin-top: 20px;
-    }
-
-    .skill-category {
-      margin-bottom: 20px;
-    }
-
-    .skill-category h3 {
-      font-size: 1.2em;
-      margin-bottom: 10px;
-      color: var(--primary-color);
-      border-bottom: 1px solid var(--accent-color);
-      padding-bottom: 5px;
-      display: inline-block;
-    }
-
-    .skill-list {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-    }
-
-    .skill-tag {
-      background-color: rgba(9, 132, 227, 0.1);
-      color: var(--accent-color);
-      padding: 5px 12px;
-      border-radius: 20px;
-      font-size: 0.9em;
-      display: inline-block;
-      transition: var(--transition);
-      border: 1px solid rgba(9, 132, 227, 0.2);
-    }
-
-    .skill-tag:hover {
-      background-color: var(--accent-color);
-      color: white;
-      transform: translateY(-2px);
-    }
-
-    /* Navigation Styles */
-    nav {
-      margin: 20px 0;
-      padding: 15px 0;
-      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    }
-
-    .nav-links {
-      display: flex;
-      justify-content: center;
-      gap: 30px;
-      list-style: none;
-      margin: 0;
-      padding: 0;
-    }
-
-    .nav-links a {
-      color: var(--text-color);
-      text-decoration: none;
-      padding: 8px 16px;
-      border-radius: 6px;
-      transition: var(--transition);
-      font-weight: 500;
-    }
-
-    .nav-links a:hover {
-      background-color: var(--accent-color);
-      color: white;
-    }
-
-    /* Skip Link for Accessibility */
-    .skip-link {
-      position: absolute;
-      top: -40px;
-      left: 6px;
-      background: var(--accent-color);
-      color: white;
-      padding: 8px;
-      text-decoration: none;
-      border-radius: 4px;
-      z-index: 1000;
-    }
-
-    .skip-link:focus {
-      top: 6px;
-    }
-
-    /* Responsive Navigation */
-    @media (max-width: 768px) {
-      .nav-links {
-        flex-direction: column;
-        align-items: center;
-        gap: 15px;
-      }
-    }
-  </style>
 </head>
 
 <body>
-  <!-- Skip to main content for accessibility -->
-  <a href="#main-content" class="skip-link">Skip to main content</a>
-  
-  <header role="banner">
-    <div class="header-content">
-      <h1>John Micah Miguel</h1>
-      <h2>Full Stack Web Development and IT Management</h2>
+  <header>
+    <div class="container header-inner">
+      <a href="#" class="logo" aria-label="Home">JM</a>
+
+      <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Toggle mobile menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav id="nav-menu">
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+        <span class="icon">☀️</span>
+      </button>
     </div>
-    <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle dark/light theme">🌓</button>
   </header>
 
-  <nav role="navigation" aria-label="Page sections">
-    <ul class="nav-links">
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#portfolio">Portfolio</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+  <main>
+    <!-- Hero Section -->
+    <section id="about" class="hero">
+      <div class="container hero-content">
+        <div class="hero-text fade-in">
+          <h1>John Micah Miguel</h1>
+          <h2>Full Stack Development & Cloud Infrastructure</h2>
+          <p>
+            I build scalable backend systems, robust cloud infrastructure, and modern web applications.
+            With over 10 years of experience, I bridge the gap between complex technical requirements and elegant user
+            solutions.
+          </p>
+          <div class="hero-cta">
+            <a href="#portfolio" class="btn btn-primary">View Work</a>
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+          </div>
+        </div>
 
-  <main id="main-content" role="main">
-    <!-- Skills Summary Section -->
-    <section id="skills" class="skills-summary" role="region" aria-labelledby="skills-heading">
-      <h2 id="skills-heading">Technical Expertise</h2>
-      <p>
-        Detail-oriented IT professional with over 10 years of experience specializing in backend solutions architecture, cloud infrastructure, and full-stack development. Passionate about building scalable, efficient applications and optimizing development workflows.
-      </p>
-      
-      <p>
-        As a seasoned <strong>Full Stack Developer</strong>, I excel in creating robust backend systems using <strong>Node.js</strong>, implementing modern frontend solutions with <strong>React</strong> and <strong>Next.js</strong>, and architecting cloud infrastructure on <strong>AWS</strong>. My expertise spans from serverless computing with <strong>AWS Lambda</strong> to containerized applications using <strong>AWS ECS</strong>, ensuring optimal performance and scalability for enterprise-level applications.
-      </p>
-      
-      <div class="skill-category">
-        <h3>Frontend Development</h3>
-        <div class="skill-list">
-          <span class="skill-tag">React</span>
-          <span class="skill-tag">Next.js</span>
-          <span class="skill-tag">React Native</span>
-          <span class="skill-tag">Angular</span>
-          <span class="skill-tag">Webflow</span>
-        </div>
-      </div>
-      
-      <div class="skill-category">
-        <h3>Backend Development</h3>
-        <div class="skill-list">
-          <span class="skill-tag">Node.js</span>
-          <span class="skill-tag">Nest.js</span>
-          <span class="skill-tag">Restify</span>
-          <span class="skill-tag">Express</span>
-          <span class="skill-tag">MongoDB</span>
-          <span class="skill-tag">Firebase</span>
-        </div>
-      </div>
-      
-      <div class="skill-category">
-        <h3>Cloud & DevOps</h3>
-        <div class="skill-list">
-          <span class="skill-tag">AWS Lambda</span>
-          <span class="skill-tag">AWS EC2</span>
-          <span class="skill-tag">AWS ECS</span>
-          <span class="skill-tag">AWS S3</span>
-          <span class="skill-tag">AWS CloudFront</span>
-          <span class="skill-tag">AWS Cognito</span>
-          <span class="skill-tag">AWS API Gateway</span>
-          <span class="skill-tag">AWS CloudWatch</span>
-          <span class="skill-tag">AWS RDS</span>
-          <span class="skill-tag">AWS SQS</span>
-          <span class="skill-tag">AWS Amplify</span>
-          <span class="skill-tag">AWS Lightsail</span>
-          <span class="skill-tag">AWS CDK</span>
-          <span class="skill-tag">AWS CodePipeline</span>
-          <span class="skill-tag">AWS CodeDeploy</span>
-          <span class="skill-tag">AWS Route53</span>
-          <span class="skill-tag">AWS Textract</span>
-          <span class="skill-tag">SST</span>
-          <span class="skill-tag">CI/CD</span>
-          <span class="skill-tag">GitHub Actions</span>
-        </div>
-      </div>
-      
-      <div class="skill-category">
-        <h3>Specialized Skills</h3>
-        <div class="skill-list">
-          <span class="skill-tag">Google Apps Script</span>
-          <span class="skill-tag">Agile/SCRUM</span>
-          <span class="skill-tag">Technical Leadership</span>
-          <span class="skill-tag">System Architecture Design</span>
-        </div>
-      </div>
-
-      <div class="skill-category">
-        <h3>AI</h3>
-        <div class="skill-list">
-          <span class="skill-tag">LLM API Integration</span>
-          <span class="skill-tag">OpenAI API</span>
-          <span class="skill-tag">Anthropic API</span>
-          <span class="skill-tag">Prompt Engineering</span>
-          <span class="skill-tag">RAG Systems</span>
-          <span class="skill-tag">Bot Development</span>
-        </div>
-      </div>
-
-      <div class="skill-category">
-        <h3>Web3</h3>
-        <div class="skill-list">
-          <span class="skill-tag">Solidity</span>
-          <span class="skill-tag">Ethereum</span>
-          <span class="skill-tag">Smart Contracts</span>
-          <span class="skill-tag">DeFi</span>
+        <div class="hero-image fade-in">
+          <div class="hero-blob"></div>
+          <div class="profile-img-container">
+            <img src="pfp.jpg" alt="John Micah Miguel" class="profile-img">
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="portfolio" role="region" aria-labelledby="portfolio-heading">
-      <h2 id="portfolio-heading">Portfolio</h2>
-      <div class="portfolio-grid">
-        <article class="portfolio-item" itemscope itemtype="https://schema.org/CreativeWork">
-          <h3 itemprop="name">Housing Hand</h3>
-          <div class="role" itemprop="description">Backend Development and AWS Server Infrastructure</div>
-          <div class="tech-stack">Angular • Node.js</div>
-          <a href="https://housinghand.co.uk/" target="_blank" rel="noopener" itemprop="url">View Project →</a>
-        </article>
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title fade-in">Technical Expertise</h2>
 
-        <article class="portfolio-item" itemscope itemtype="https://schema.org/CreativeWork">
-          <h3 itemprop="name">AppVenture Inc.</h3>
-          <div class="role" itemprop="description">Backend Development, Project Management, Software Architecture</div>
-          <div class="tech-stack">Node.js • AWS Services • React.js • JIRA</div>
-          <a href="https://www.app-venture.co/" target="_blank" rel="noopener" itemprop="url">View Project →</a>
-        </article>
+        <div class="skills-grid">
+          <!-- Backend -->
+          <div class="skill-card fade-in">
+            <h3>Backend Development</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Node.js</span>
+              <span class="skill-tag">Nest.js</span>
+              <span class="skill-tag">Express</span>
+              <span class="skill-tag">MongoDB</span>
+              <span class="skill-tag">PostgreSQL</span>
+              <span class="skill-tag">Restify</span>
+            </div>
+          </div>
 
-        <article class="portfolio-item" itemscope itemtype="https://schema.org/CreativeWork">
-          <h3 itemprop="name">Playfriends</h3>
-          <div class="role" itemprop="description">Full Stack Development, DevOps, Cybersecurity</div>
-          <div class="tech-stack">Node.js • React.js • React Native • Nest.js</div>
-          <a href="https://www.playfriends.gg/" target="_blank" rel="noopener" itemprop="url">Web Version →</a>
-          <br>
-          <a href="https://play.google.com/store/apps/details?id=gg.playfriends.android&hl=en" target="_blank" rel="noopener">Play Store →</a>
-        </article>
+          <!-- Cloud -->
+          <div class="skill-card fade-in">
+            <h3>Cloud & DevOps</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">AWS Lambda</span>
+              <span class="skill-tag">AWS ECS</span>
+              <span class="skill-tag">AWS CDK</span>
+              <span class="skill-tag">SST</span>
+              <span class="skill-tag">CI/CD</span>
+              <span class="skill-tag">Docker</span>
+            </div>
+          </div>
 
-        <article class="portfolio-item" itemscope itemtype="https://schema.org/CreativeWork">
-          <h3 itemprop="name">Akylade</h3>
-          <div class="role" itemprop="description">Full Stack Development</div>
-          <div class="tech-stack">Node.js • React.js • SST • Next.js</div>
-          <a href="https://www.akylade.com/" target="_blank" rel="noopener" itemprop="url">Web Version →</a>
-        </article>
+          <!-- Frontend -->
+          <div class="skill-card fade-in">
+            <h3>Frontend</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">React</span>
+              <span class="skill-tag">Next.js</span>
+              <span class="skill-tag">React Native</span>
+              <span class="skill-tag">Angular</span>
+              <span class="skill-tag">Tailwind</span>
+            </div>
+          </div>
+
+          <!-- Emerging Tech -->
+          <div class="skill-card fade-in">
+            <h3>Emerging Tech</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">OpenAI API</span>
+              <span class="skill-tag">LLM Integration</span>
+              <span class="skill-tag">Solidity</span>
+              <span class="skill-tag">Smart Contracts</span>
+              <span class="skill-tag">Web3</span>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section id="contact" class="links" role="region" aria-labelledby="contact-heading">
-      <h2 id="contact-heading">Connect With Me</h2>
-      <div class="social-links">
-        <a href="https://github.com/johnmicahmiguel" target="_blank" rel="noopener" aria-label="Visit my GitHub profile">Github</a>
-        <a href="https://www.linkedin.com/in/jmmiguel" target="_blank" rel="noopener" aria-label="Connect with me on LinkedIn">LinkedIn</a>
-        <a href="https://drive.google.com/file/d/1EI8NAwnp4IVrWPgCSUrogdjYMQuMNxBt/view" target="_blank" rel="noopener" aria-label="Download my resume">Resume</a>
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section">
+      <div class="container">
+        <h2 class="section-title fade-in">Featured Work</h2>
+
+        <div class="portfolio-grid">
+          <!-- Project 1 -->
+          <article class="project-card fade-in">
+            <div class="project-content">
+              <h3 class="project-title">Housing Hand</h3>
+              <div class="project-role">Backend & Infrastructure</div>
+              <p class="project-description">
+                Architected and maintained backend systems and AWS server infrastructure for a leading UK guarantor
+                service.
+              </p>
+              <div class="project-tech">
+                <span class="tech-pill">Angular</span>
+                <span class="tech-pill">Node.js</span>
+                <span class="tech-pill">AWS</span>
+              </div>
+              <a href="https://housinghand.co.uk/" target="_blank" class="project-link">View Project →</a>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card fade-in">
+            <div class="project-content">
+              <h3 class="project-title">AppVenture Inc.</h3>
+              <div class="project-role">Technical Team Lead</div>
+              <p class="project-description">
+                Led backend development and software architecture. Managed projects using Agile methodologies and JIRA.
+              </p>
+              <div class="project-tech">
+                <span class="tech-pill">Node.js</span>
+                <span class="tech-pill">React</span>
+                <span class="tech-pill">AWS</span>
+              </div>
+              <a href="https://www.app-venture.co/" target="_blank" class="project-link">View Project →</a>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card fade-in">
+            <div class="project-content">
+              <h3 class="project-title">Playfriends</h3>
+              <div class="project-role">Full Stack & DevOps</div>
+              <p class="project-description">
+                Built a comprehensive gaming platform with web and mobile interfaces. Implemented secure payment flows
+                and real-time features.
+              </p>
+              <div class="project-tech">
+                <span class="tech-pill">Nest.js</span>
+                <span class="tech-pill">React Native</span>
+                <span class="tech-pill">WebSockets</span>
+              </div>
+              <a href="https://www.playfriends.gg/" target="_blank" class="project-link">View Project →</a>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project-card fade-in">
+            <div class="project-content">
+              <h3 class="project-title">Akylade</h3>
+              <div class="project-role">Full Stack Developer</div>
+              <p class="project-description">
+                Developed a modern SaaS platform using serverless technologies for high scalability and low maintenance.
+              </p>
+              <div class="project-tech">
+                <span class="tech-pill">Next.js</span>
+                <span class="tech-pill">SST</span>
+                <span class="tech-pill">Serverless</span>
+              </div>
+              <a href="https://www.akylade.com/" target="_blank" class="project-link">View Project →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container contact-section fade-in">
+        <h2 class="section-title">Let's Connect</h2>
+        <p class="contact-text">
+          I'm always interested in hearing about new projects and opportunities.
+          Whether you have a question or just want to say hi, feel free to reach out.
+        </p>
+
+        <div class="social-links">
+          <a href="https://github.com/johnmicahmiguel" target="_blank" class="social-btn">
+            GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/jmmiguel" target="_blank" class="social-btn">
+            LinkedIn
+          </a>
+          <a href="https://drive.google.com/file/d/1EI8NAwnp4IVrWPgCSUrogdjYMQuMNxBt/view" target="_blank"
+            class="social-btn">
+            Resume
+          </a>
+          <a href="mailto:contact@johnmicahmiguel.com" class="social-btn">
+            Email
+          </a>
+        </div>
       </div>
     </section>
   </main>
 
-  <script>
-    function toggleTheme() {
-      const root = document.documentElement
-      const currentTheme = root.getAttribute('data-theme')
-      root.setAttribute('data-theme', currentTheme === 'dark' ? 'light' : 'dark')
-    }
-  </script>
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 John Micah Miguel. All rights reserved.</p>
+    </div>
+  </footer>
 
-  <!-- Enhanced structured data for better SEO -->
-  <script type="application/ld+json">
-    [
-      {
-        "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "John Micah Miguel",
-        "jobTitle": "Full Stack Developer",
-        "description": "Detail-oriented IT professional with over 10 years of experience specializing in backend solutions architecture, cloud infrastructure, and full-stack development.",
-        "url": "https://johnmicahmiguel.com",
-        "image": "https://i.ibb.co/7kJH01g/pfp.png",
-        "email": "contact@johnmicahmiguel.com",
-        "sameAs": [
-          "https://github.com/johnmicahmiguel",
-          "https://www.linkedin.com/in/jmmiguel"
-        ],
-        "worksFor": {
-          "@type": "Organization",
-          "name": "Freelance Developer"
-        },
-        "hasOccupation": {
-          "@type": "Occupation",
-          "name": "Full Stack Developer",
-          "occupationLocation": {
-            "@type": "Country",
-            "name": "United States"
-          },
-          "skills": [
-            "Backend Development", 
-            "AWS Infrastructure", 
-            "Node.js", 
-            "React", 
-            "Next.js",
-            "React Native",
-            "Angular", 
-            "IT Management",
-            "Nest.js",
-            "Restify",
-            "MongoDB",
-            "AWS CDK",
-            "AWS Lambda",
-            "AWS EC2",
-            "AWS ECS",
-            "AWS S3",
-            "AWS CloudFront",
-            "AWS Cognito",
-            "AWS API Gateway",
-            "AWS CloudWatch",
-            "AWS RDS",
-            "AWS SQS",
-            "AWS Amplify",
-            "AWS Lightsail",
-            "AWS CodePipeline",
-            "AWS CodeDeploy",
-            "AWS Route53",
-            "AWS Textract",
-            "SST",
-            "Firebase",
-            "Webflow",
-            "CI/CD",
-            "GitHub Actions",
-            "Bot Development",
-            "AI Integration",
-            "LLM API Integration",
-            "OpenAI API",
-            "Anthropic API",
-            "Prompt Engineering",
-            "RAG Systems",
-            "Solidity",
-            "Ethereum",
-            "Smart Contracts",
-            "DeFi"
-          ]
-        },
-        "knowsAbout": [
-          "Backend Development", 
-          "AWS Infrastructure", 
-          "Node.js", 
-          "React", 
-          "Next.js",
-          "React Native",
-          "Angular", 
-          "IT Management",
-          "Cloud Computing",
-          "DevOps",
-          "Software Architecture",
-          "Database Design",
-          "API Development",
-          "Microservices",
-          "Serverless Computing",
-          "Artificial Intelligence",
-          "Machine Learning",
-          "Blockchain Development",
-          "Web3 Technologies"
-        ]
-      },
-      {
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "John Micah Miguel Portfolio",
-        "url": "https://johnmicahmiguel.com",
-        "description": "Professional portfolio of John Micah Miguel, Full Stack Developer specializing in Backend Development, AWS Infrastructure, and IT Management",
-        "author": {
-          "@type": "Person",
-          "name": "John Micah Miguel"
-        },
-        "potentialAction": {
-          "@type": "SearchAction",
-          "target": "https://johnmicahmiguel.com#{search_term_string}",
-          "query-input": "required name=search_term_string"
-        }
-      },
-      {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://johnmicahmiguel.com"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Skills",
-            "item": "https://johnmicahmiguel.com#skills"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "Portfolio",
-            "item": "https://johnmicahmiguel.com#portfolio"
-          },
-          {
-            "@type": "ListItem",
-            "position": 4,
-            "name": "Contact",
-            "item": "https://johnmicahmiguel.com#contact"
-          }
-        ]
-      }
-    ]
-  </script>
+  <script src="script.js"></script>
 </body>
 
 </html>
